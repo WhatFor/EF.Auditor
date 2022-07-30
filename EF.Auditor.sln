@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeDo.Audits", "WeDo.Audits\WeDo.Audits.csproj", "{10FA4F33-07A1-4603-B2F0-5FBDD0502DCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.Auditor", "EF.Auditor\EF.Auditor.csproj", "{10FA4F33-07A1-4603-B2F0-5FBDD0502DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeDo.Audits.UnitTests", "WeDo.Audits.UnitTests\WeDo.Audits.UnitTests.csproj", "{720A7AF1-F151-4B29-8851-0CCAC2F08858}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.Auditor.UnitTests", "EF.Auditor.UnitTests\EF.Auditor.UnitTests.csproj", "{720A7AF1-F151-4B29-8851-0CCAC2F08858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeDo.Audits.Models", "WeDo.Audits.Models\WeDo.Audits.Models.csproj", "{2DCC41CC-8D12-4CA0-9432-DD62815D686B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF.Auditor.Models", "EF.Auditor.Models\EF.Auditor.Models.csproj", "{2DCC41CC-8D12-4CA0-9432-DD62815D686B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

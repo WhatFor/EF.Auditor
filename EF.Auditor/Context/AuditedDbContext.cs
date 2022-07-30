@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WeDo.Audits.Models;
+using EF.Auditor.Models;
 
 // Justification: Not needed.
 #pragma warning disable CS8618
 
-namespace WeDo.Audits.Context;
+namespace EF.Auditor.Context;
 
 public abstract class AuditedDbContext : DbContext
 {

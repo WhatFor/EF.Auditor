@@ -35,7 +35,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\WeDo.Audits\WeDo.Audits.csproj" />
+      <ProjectReference Include="..\EF.Auditor\EF.Auditor.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace WeDo.Audits.UnitTests.Migrations
+namespace EF.Auditor.UnitTests.Migrations
 {
     public partial class Init : Migration
     {

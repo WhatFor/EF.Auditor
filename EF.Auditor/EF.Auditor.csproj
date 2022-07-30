@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\WeDo.Audits.Models\WeDo.Audits.Models.csproj" />
+      <ProjectReference Include="..\EF.Auditor.Models\EF.Auditor.Models.csproj" />
     </ItemGroup>
 
 </Project>

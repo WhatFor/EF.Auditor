@@ -1,13 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EF.Auditor.Extensions;
+using EF.Auditor.UnitTests.Models.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Respawn;
 using Respawn.Graph;
-using WeDo.Audits.Extensions;
-using WeDo.Audits.UnitTests.Models.Context;
 
-namespace WeDo.Audits.UnitTests.Fixtures;
+namespace EF.Auditor.UnitTests.Fixtures;
 
 public abstract class BaseTest
 {
@@ -37,7 +37,7 @@ public abstract class BaseTest
                 services.AddDbContext<TestDbContext>(o =>
                     o.UseSqlServer(_configuration.GetConnectionString("Default")));
 
-                // Use WeDo.Audits
+                // Use EF.Auditor
                 services.AddLogging();
                 services.UseAuditing();
             

@@ -1,8 +1,8 @@
+using EF.Auditor.UnitTests.Fixtures;
+using EF.Auditor.UnitTests.Models.Context;
 using Microsoft.Extensions.DependencyInjection;
-using WeDo.Audits.UnitTests.Fixtures;
-using WeDo.Audits.UnitTests.Models.Context;
 
-namespace WeDo.Audits.UnitTests;
+namespace EF.Auditor.UnitTests;
 
 public class MetaTests : BaseTest
 {

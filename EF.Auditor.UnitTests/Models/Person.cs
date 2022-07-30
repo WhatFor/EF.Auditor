@@ -1,4 +1,4 @@
-﻿namespace WeDo.Audits.UnitTests.Models;
+﻿namespace EF.Auditor.UnitTests.Models;
 
 public class Person
 {

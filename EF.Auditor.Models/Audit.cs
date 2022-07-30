@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WeDo.Audits.Models;
+namespace EF.Auditor.Models;
 
 public class Audit
 {

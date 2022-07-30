@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WeDo.Audits.Context;
+using EF.Auditor.Context;
 
-namespace WeDo.Audits.UnitTests.Models.Context;
+namespace EF.Auditor.UnitTests.Models.Context;
 
 public class TestDbContext : AuditedDbContext
 {

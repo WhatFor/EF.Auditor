@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace WeDo.Audits.Extensions.Models;
+namespace EF.Auditor.Extensions.Models;
 
 public class AuditsServiceBuilder
 {

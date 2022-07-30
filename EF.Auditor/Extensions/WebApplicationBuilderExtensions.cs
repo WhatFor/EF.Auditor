@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using WeDo.Audits.Extensions.Models;
+﻿using EF.Auditor.Extensions.Models;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace WeDo.Audits.Extensions;
+namespace EF.Auditor.Extensions;
 
 public static class WebApplicationBuilderExtensions
 {
